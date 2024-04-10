@@ -1,7 +1,7 @@
-import PhotoAlbum from "react-photo-album";
+// import PhotoAlbum from "react-photo-album";
 import TextTitle from "../comp/TextTitle";
 import { useState } from "react";
-import { FaTimes } from "react-icons/fa";
+// import { FaTimes } from "react-icons/fa";
 import Img from "@/assets/images/Rectangle 23.png";
 
 const ImageGallery = () => {
@@ -77,22 +77,22 @@ const ImageGallery = () => {
   //     height: 1626,
   //   },
   // ];
-  const [isFullscreen, setIsFullscreen] = useState(false);
-  const [currentImageIndex, setCurrentImageIndex] = useState(-1);
+  // const [isFullscreen, setIsFullscreen] = useState(false);
+  // const [currentImageIndex, setCurrentImageIndex] = useState(-1);
   const [typeImage, setTypeImage] = useState("Fasilitas Sekolah");
 
   const setType = (e: any) => {
     setTypeImage(e.target.innerText);
   };
   console.log(typeImage);
-  const openFullscreen = (index: any) => {
-    setCurrentImageIndex(index);
-    setIsFullscreen(true);
-  };
+  // const openFullscreen = (index: any) => {
+  //   setCurrentImageIndex(index);
+  //   setIsFullscreen(true);
+  // };
 
-  const closeFullscreen = () => {
-    setIsFullscreen(false);
-  };
+  // const closeFullscreen = () => {
+  //   setIsFullscreen(false);
+  // };
   return (
     <section className="relative mt-8 max-w-screen-xl px-4 mx-auto md:px-5 xxl:px-0">
       <TextTitle

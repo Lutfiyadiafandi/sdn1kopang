@@ -1,30 +1,29 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/effect-fade";
 import images from "@/assets/images/Subtract.png";
-import Header from "./Header";
 
 const Banner = () => {
-  const Image = [
-    {
-      id: 1,
-      image: "https://sdm2dps.com/wp-content/uploads/2019/02/home1.jpg",
-      alt: "gallery-image",
-    },
-    {
-      id: 2,
-      image: "https://sdm2dps.com/wp-content/uploads/2019/02/home2.jpg",
-      alt: "gallery-image",
-    },
-    {
-      id: 3,
-      image: "https://sdm2dps.com/wp-content/uploads/2019/02/home3-1.jpg",
-      alt: "gallery-image",
-    },
-  ];
+  // const Image = [
+  //   {
+  //     id: 1,
+  //     image: "https://sdm2dps.com/wp-content/uploads/2019/02/home1.jpg",
+  //     alt: "gallery-image",
+  //   },
+  //   {
+  //     id: 2,
+  //     image: "https://sdm2dps.com/wp-content/uploads/2019/02/home2.jpg",
+  //     alt: "gallery-image",
+  //   },
+  //   {
+  //     id: 3,
+  //     image: "https://sdm2dps.com/wp-content/uploads/2019/02/home3-1.jpg",
+  //     alt: "gallery-image",
+  //   },
+  // ];
   return (
     <section className="relative w-full h-screen">
       <div className="relative w-full overflow-hidden">
