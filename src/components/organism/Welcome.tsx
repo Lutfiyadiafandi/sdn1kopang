@@ -1,15 +1,15 @@
-import Profil from "@/assets/images/Group 24.png";
+// import Profil from "@/assets/images/Group 24.png";
 
 const Welcome = () => {
   return (
     <section className="relative mt-[70px] max-w-screen-xl px-4 mx-auto md:px-5 xxl:px-0 ">
       <div className="mt-8 w-full h-[341px] bg-primary-700 px-6 py-10 rounded-lg rounded-tl-[180px] flex items-center">
         <div className="flex-none w-[480px]">
-          <img
+          {/* <img
             src={Profil}
             alt=""
             className="w-full h-[476px] aspect-square mb-[134px] -ml-6"
-          />
+          /> */}
         </div>
         <div className="grow">
           <h4 className="text-type-l font-semibold text-basic-50">
