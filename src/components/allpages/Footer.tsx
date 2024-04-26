@@ -47,8 +47,11 @@ const Footer = () => {
       <div className="max-w-screen-xl py-[40px] px-4 mx-auto grid grid-cols-1 lg:grid-cols-3 gap-10 text-basic-100">
         <div className="col-span-1 flex flex-col justify-between gap-5">
           <div>
-            <img src={Logo} alt="" className="w-[279px] mb-2" />
+            <Link to={"/"}>
+              <img src={Logo} alt="" className="w-[279px] mb-2" />
+            </Link>
           </div>
+
           <div className="flex gap-6">
             <FaYoutube size={30} className=" cursor-pointer" />
             <FaInstagram size={30} className=" cursor-pointer" />
