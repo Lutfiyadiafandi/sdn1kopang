@@ -1,13 +1,13 @@
-import Contact from "@/components/organism/Contact";
-import Footer from "@/components/organism/Footer";
-import Header from "@/components/organism/Header";
-import TopNav from "@/components/organism/TopNav";
+import Contact from "@/components/perpages/Contact";
+import Footer from "@/components/allpages/Footer";
+import Navigation from "@/components/allpages/Navigation";
+import Header from "@/components/allpages/Header";
 
 const ContactUs = () => {
   return (
     <main>
-      <TopNav />
       <Header />
+      <Navigation />
       <Contact />
       <Footer />
     </main>

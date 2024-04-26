@@ -1,18 +1,18 @@
-import Excellence from "@/components/organism/Excellence";
-import Welcome from "@/components/organism/Welcome";
-import Banner from "@/components/organism/Banner";
-import Header from "@/components/organism/Header";
-import LatestNews from "@/components/organism/LatestNews";
-import TopNav from "@/components/organism/TopNav";
-import BannerRegist from "@/components/organism/BannerRegist";
-import Footer from "@/components/organism/Footer";
-import FaQ from "@/components/organism/FaQ";
+import Header from "@/components/allpages/Header";
+import Navigation from "@/components/allpages/Navigation";
+import Excellence from "@/components/perpages/Excellence";
+import Welcome from "@/components/perpages/Welcome";
+import Banner from "@/components/perpages/Banner";
+import LatestNews from "@/components/perpages/LatestNews";
+import BannerRegist from "@/components/perpages/BannerRegist";
+import Footer from "@/components/allpages/Footer";
+import FaQ from "@/components/perpages/FaQ";
 
 const Home = () => {
   return (
     <main className="">
-      <TopNav />
       <Header />
+      <Navigation />
       <Banner />
       <Welcome />
       <Excellence />

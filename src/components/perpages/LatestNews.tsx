@@ -1,5 +1,5 @@
-import CardNews from "../comp/CardNews";
-import TextTitle from "../comp/TextTitle";
+import CardNews from "../reusable/CardNews";
+import TextTitle from "../reusable/TextTitle";
 import { Button } from "../ui/button";
 
 const LatestNews = () => {
@@ -9,7 +9,7 @@ const LatestNews = () => {
         title={"Berita Dan Artikel"}
         subTitle={"Update Berita dan Artikel Terbaru Kami"}
       />
-      <div className="mt-8 grid grid-cols-4 gap-[25px]">
+      <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[25px]">
         <CardNews
           image={
             "https://strapi.lenteravisiedutama.com/uploads/Img_Artikel_Banner_63c481bdb8.png"

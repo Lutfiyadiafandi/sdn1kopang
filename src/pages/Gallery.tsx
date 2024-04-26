@@ -1,13 +1,13 @@
-import ImageGallery from "@/components/molecules/ImageGallery";
-import Footer from "@/components/organism/Footer";
-import Header from "@/components/organism/Header";
-import TopNav from "@/components/organism/TopNav";
+import ImageGallery from "@/components/perpages/ImageGallery";
+import Footer from "@/components/allpages/Footer";
+import Navigation from "@/components/allpages/Navigation";
+import Header from "@/components/allpages/Header";
 
 const Gallery = () => {
   return (
     <main className="">
-      <TopNav />
       <Header />
+      <Navigation />
       <ImageGallery />
       <Footer />
     </main>

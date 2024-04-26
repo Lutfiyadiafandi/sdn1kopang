@@ -1,4 +1,4 @@
-import TextTitle from "../comp/TextTitle";
+import TextTitle from "../reusable/TextTitle";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
@@ -70,7 +70,7 @@ const Achievement = () => {
           }}
         >
           {Image.map((data: any) => (
-            <SwiperSlide>
+            <SwiperSlide key={data.id}>
               <div className="flex justify-center gap-10">
                 <div className="pb-5 bg-neutral0 items-center justify-center flex flex-col gap-5 mx-4 rounded-2xl border-2 border-gradient">
                   <img

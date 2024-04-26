@@ -4,7 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import TextTitle from "../comp/TextTitle";
+import TextTitle from "../reusable/TextTitle";
 
 const FaQ = () => {
   return (

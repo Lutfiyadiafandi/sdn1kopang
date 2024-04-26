@@ -1,4 +1,4 @@
-import TextTitle from "../comp/TextTitle";
+import TextTitle from "../reusable/TextTitle";
 // import { zodResolver } from "@hookform/resolvers/zod"
 // import { useForm } from "react-hook-form"
 // import { z } from "zod"
@@ -24,7 +24,7 @@ const Contact = () => {
         title={"Kontak Kami"}
         subTitle={"Jika Ada Pertanyaan Silahkan Hubungi Kami"}
       />
-      <div className="mt-14 grid grid-cols-2 gap-[50px]">
+      <div className="mt-14 grid grid-cols-1 md:grid-cols-2 gap-[50px]">
         <form
           // onSubmit={form.handleSubmit(onSubmit)}
           className="space-y-6 bg-basic-50 py-7 px-5 rounded-xl"
@@ -42,7 +42,7 @@ const Contact = () => {
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.636839968141!2d116.34631257418707!3d-8.63081858773456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdb46ac1ef2f4f%3A0x8a4cfff1cacc8826!2sSD%20Negeri%201%20Kopang!5e0!3m2!1sid!2sid!4v1712201827269!5m2!1sid!2sid"
           loading="lazy"
-          className="w-full h-full border rounded-lg"
+          className="w-full h-full border aspect-square lg:aspect-auto rounded-lg"
           referrerPolicy="no-referrer-when-downgrade"
           allowFullScreen
         ></iframe>

@@ -1,5 +1,5 @@
 // import PhotoAlbum from "react-photo-album";
-import TextTitle from "../comp/TextTitle";
+import TextTitle from "../reusable/TextTitle";
 import { useState } from "react";
 // import { FaTimes } from "react-icons/fa";
 import Img from "@/assets/images/Rectangle 23.png";
@@ -137,7 +137,7 @@ const ImageGallery = () => {
           </h3>
         </div>
       </div>
-      <div className="mt-8 grid grid-cols-3 gap-x-5 gap-y-8">
+      <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         <img
           src={Img}
           alt=""

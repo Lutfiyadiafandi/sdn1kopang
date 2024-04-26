@@ -1,15 +1,15 @@
-import Achievement from "@/components/molecules/Achievement";
-import History from "@/components/molecules/History";
-import VisiMision from "@/components/molecules/VisiMision";
-import Footer from "@/components/organism/Footer";
-import Header from "@/components/organism/Header";
-import TopNav from "@/components/organism/TopNav";
+import Header from "@/components/allpages/Header";
+import Navigation from "@/components/allpages/Navigation";
+import Achievement from "@/components/perpages/Achievement";
+import History from "@/components/perpages/History";
+import VisiMision from "@/components/perpages/VisiMision";
+import Footer from "@/components/allpages/Footer";
 
 const Profile = () => {
   return (
     <main>
-      <TopNav />
       <Header />
+      <Navigation />
       <History />
       <VisiMision />
       <Achievement />

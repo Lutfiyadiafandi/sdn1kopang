@@ -1,17 +1,17 @@
-// import Profil from "@/assets/images/Group 24.png";
+import Profil from "@/assets/images/Group 24.png";
 
 const Welcome = () => {
   return (
-    <section className="relative mt-[70px] max-w-screen-xl px-4 mx-auto md:px-5 xxl:px-0 ">
-      <div className="mt-8 w-full h-[341px] bg-primary-700 px-6 py-10 rounded-lg rounded-tl-[180px] flex items-center">
-        <div className="flex-none w-[480px]">
-          {/* <img
+    <section className="relative mt-[150px] max-w-screen-xl px-4 mx-auto md:px-5 xxl:px-0">
+      <div className="mt-8 w-full lg:h-[341px] bg-primary-700 px-4 lg:px-6 py-10 rounded-lg rounded-tl-[180px] flex flex-col lg:flex-row items-center">
+        <div className="flex-none max-w-[480px]">
+          <img
             src={Profil}
             alt=""
-            className="w-full h-[476px] aspect-square mb-[134px] -ml-6"
-          /> */}
+            className="w-full lg:h-[476px] aspect-square mb-[134px] -mt-28 lg:-mt-0 ml-4 lg:-ml-6"
+          />
         </div>
-        <div className="grow">
+        <div className="-mt-14 lg:-mt-0 grow">
           <h4 className="text-type-l font-semibold text-basic-50">
             KATA SAMBUTAN
           </h4>
@@ -32,8 +32,8 @@ const Welcome = () => {
           </p>
         </div>
       </div>
-      <div className="absolute -bottom-5 left-0 w-[75px] h-[75px] border-t-4 border-r-4 border-primary-700 rotate-180 rounded-tr-3xl"></div>
-      <div className="absolute -top-5 right-0 w-[75px] h-[75px] border-b-4 border-l-4 border-primary-700 rotate-180 rounded-bl-3xl"></div>
+      <div className="absolute -bottom-4 left-1 xl:-bottom-5 xl:right-0 w-[75px] h-[75px] border-t-4 border-r-4 border-primary-700 rotate-180 rounded-tr-3xl"></div>
+      <div className="absolute -top-4 right-1 xl:-top-5 xl:right-0 w-[75px] h-[75px] border-b-4 border-l-4 border-primary-700 rotate-180 rounded-bl-3xl"></div>
     </section>
   );
 };

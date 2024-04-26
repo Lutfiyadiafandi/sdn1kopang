@@ -1,10 +1,10 @@
-import TextTitle from "../comp/TextTitle";
+import TextTitle from "../reusable/TextTitle";
 
 const VisiMision = () => {
   return (
     <section className="mt-[70px] max-w-screen-xl px-4 mx-auto md:px-5 xxl:px-0">
       <TextTitle title={"Visi & Misi"} subTitle={"SDN 1 Kopang"} />
-      <div className="mt-8 relative w-full bg-primary-700 px-10 py-6 rounded-lg grid grid-cols-2 gap-10 text-basic-50">
+      <div className="mt-8 relative w-full bg-primary-700 px-10 py-6 rounded-lg grid grid-cols-1 lg:grid-cols-2 gap-10 text-basic-50">
         <div>
           <h3 className="text-type-xl font-semibold text-center">Visi</h3>
           <ol className="mt-2 flex flex-col gap-1 list-decimal text-type-l font-normal">
@@ -49,8 +49,8 @@ const VisiMision = () => {
             </li>
           </ol>
         </div>
-        <div className="absolute -top-5 -left-5 w-[75px] h-[75px] border-b-4 border-r-4 border-primary-700 rotate-180 rounded-br-3xl"></div>
-        <div className="absolute -bottom-5 -right-5 w-[75px] h-[75px] border-t-4 border-l-4 border-primary-700 rotate-180 rounded-tl-3xl"></div>
+        <div className="absolute -top-3 -left-3 xl:-top-5 xl:-left-5 w-[75px] h-[75px] border-b-4 border-r-4 border-primary-700 rotate-180 rounded-br-3xl"></div>
+        <div className="absolute -bottom-3 -right-3 xl:-bottom-5 xl:-right-5 w-[75px] h-[75px] border-t-4 border-l-4 border-primary-700 rotate-180 rounded-tl-3xl"></div>
       </div>
     </section>
   );

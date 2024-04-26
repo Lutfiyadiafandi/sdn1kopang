@@ -1,9 +1,9 @@
-import TextTitle from "../comp/TextTitle";
+import TextTitle from "../reusable/TextTitle";
 
 const History = () => {
   return (
     <section className="mt-8 max-w-screen-xl px-4 mx-auto md:px-5 xxl:px-0">
-      <div className="grid grid-cols-2 gap-[50px] justify-between items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-[50px] justify-between items-center">
         <div>
           <TextTitle title={"Sejarah"} subTitle={"SDN 1 Kopang"} />
           <p className="mt-5 text-type-l font-normal text-basic-900 text-balance">
@@ -23,14 +23,14 @@ const History = () => {
             siswa dalam aktifitas pembelajaran
           </p>
         </div>
-        <div className="relative w-full">
+        <div className="relative w-full order-first">
           <img
             src="https://sdm2dps.com/wp-content/uploads/2019/02/home3-1.jpg"
             alt=""
             className="w-full mx-auto aspect-video object-cover rounded-lg"
           />
-          <div className="absolute -top-5 -right-5 w-[75px] h-[75px] border-b-4 border-l-4 border-primary-700 rotate-180 rounded-bl-3xl"></div>
-          <div className="absolute -bottom-5 -left-5 w-[75px] h-[75px] border-t-4 border-r-4 border-primary-700 rotate-180 rounded-tr-3xl"></div>
+          <div className="absolute -top-3 -right-3 xl:-top-5 xl:-right-5 w-[75px] h-[75px] border-b-4 border-l-4 border-primary-700 rotate-180 rounded-bl-3xl"></div>
+          <div className="absolute -bottom-3 -left-3 xl:-bottom-5 xl:-left-5 w-[75px] h-[75px] border-t-4 border-r-4 border-primary-700 rotate-180 rounded-tr-3xl"></div>
         </div>
       </div>
     </section>

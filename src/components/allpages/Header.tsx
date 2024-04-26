@@ -5,14 +5,16 @@ import {
   FaFacebook,
 } from "react-icons/fa";
 
-const TopNav = () => {
+const Header = () => {
   return (
     <header className="w-full bg-primary-600">
       <div className="max-w-screen-xl h-[38px] px-4 py-2 mx-auto md:px-5 xxl:px-0 flex justify-between items-center text-type-m font-normal text-basic-100">
-        <span>SD Negeri 1 Kopang</span>
-        <div className="flex gap-2">
+        <span className="text-type-m font-normal text-basic-100">
+          SD Negeri 1 Kopang
+        </span>
+        <div className="hidden lg:flex gap-2">
           <FaMapMarkerAlt size={20} />
-          <span>
+          <span className="text-type-m font-normal text-basic-100">
             Jl Sawunggaling 2, Jemundo, Taman, Sidoarjo, Jawa Timur. Kode Pos :
             61257
           </span>
@@ -27,4 +29,4 @@ const TopNav = () => {
   );
 };
 
-export default TopNav;
+export default Header;

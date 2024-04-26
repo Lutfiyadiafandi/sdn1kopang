@@ -15,3 +15,7 @@ body,
   scroll-behavior: smooth;
   background-color: #f7f7f7;
 }
+.active {
+  color: #218980;
+  border-bottom: 2px solid #218980;
+}

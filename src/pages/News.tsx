@@ -1,13 +1,13 @@
-import Footer from "@/components/organism/Footer";
-import Header from "@/components/organism/Header";
-import LatestNews from "@/components/organism/LatestNews";
-import TopNav from "@/components/organism/TopNav";
+import Header from "@/components/allpages/Header";
+import Navigation from "@/components/allpages/Navigation";
+import Footer from "@/components/allpages/Footer";
+import LatestNews from "@/components/perpages/LatestNews";
 
 const News = () => {
   return (
     <main className="">
-      <TopNav />
       <Header />
+      <Navigation />
       <LatestNews />
       <Footer />
     </main>
