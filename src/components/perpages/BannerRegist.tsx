@@ -1,6 +1,7 @@
 import { FaArrowRight } from "react-icons/fa";
 import images from "../../assets/images/Rectangle 24.png";
 import { Button } from "../ui/button";
+import { Link } from "react-router-dom";
 
 const BannerRegist = () => {
   return (
@@ -14,12 +15,14 @@ const BannerRegist = () => {
         <p className="mt-4 text-type-l md:text-type-xl font-semibold text-basic-50 text-center">
           Informasi terbaru mengenai PPDB T.A. 2024/2025 dapat diakses disini.
         </p>
-        <Button
-          className="mt-[42px] text-type-l font-semibold"
-          variant={"outline"}
-        >
-          Cek Informasi PPDB <FaArrowRight size={15} className="ml-2" />
-        </Button>
+        <Link to="/ppdb">
+          <Button
+            className="mt-[42px] text-type-l font-semibold"
+            variant={"outline"}
+          >
+            Cek Informasi PPDB <FaArrowRight size={15} className="ml-2" />
+          </Button>
+        </Link>
       </div>
     </section>
   );
